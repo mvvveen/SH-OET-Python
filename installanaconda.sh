@@ -9,7 +9,7 @@ echo "This script will install and configure anaconda software for your system"
 # Check whether you are root
 
 if [ "$(whoami)" == "root" ]; then
-        echo "Sorry, you are suposed to run with root, please run without sudo rights"
+        echo "Sorry, you are running with root, please run without sudo rights"
         exit 1
 fi
 
